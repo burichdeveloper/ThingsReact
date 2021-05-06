@@ -1,0 +1,72 @@
+.todoItem {
+    display: flex;
+    line-height: 16px;
+    align-items: center;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.todoItem input[type="checkbox"] {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+
+.focusedTodoItem {
+    background-color: #262a30;
+    width: 100%;
+    margin-left: -18px;
+    padding: 20px 18px;
+
+}
+
+.todoHeader {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+}
+
+.todoHeader input[type='text'] {
+    background-color: #262a30;
+    border: none;
+    color: #848c99;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.todoHeader input[type='checkbox'] {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+.notes textarea {
+    font-family: sans-serif;
+    background-color: #262a30;
+    border: none;
+    resize: none;
+    width:100%;
+    height: fit-content;
+    color: #848c99;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions img,
+.actions svg {
+    width: 20px;
+    margin-left: 20px;
+    fill: #848c99;
+}
+
+.todoItem p {
+    margin: 0;
+    line-height: 40px;
+}

@@ -1,0 +1,54 @@
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.controls svg {
+    height: 30px;
+    fill: #707781;
+}
+
+svg.dropdown {
+    height: 30px;
+}
+
+
+
+/* Category Title */
+.categoryTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.categoryTitle svg {
+    height: 30px;
+    margin-right: 10px;
+    fill: #4886eb;
+}
+
+
+
+
+/* addTodo */
+
+.addTodo {
+    position: absolute;
+    bottom: 40px;
+    right: 12px;
+    height: 45px;
+    width: 45px;
+    background-color: #4886eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addTodo svg {
+    height: 30px;
+    fill: white;
+}

@@ -1,0 +1,65 @@
+.MainMenu p {
+    margin: 0
+}
+
+.MainMenu .search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.MainMenu .search input {
+    border: none;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #343941;
+    color: #8b93a1;
+    text-align: center;
+}
+
+.categoryItem {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    line-height: 40px;
+}
+
+.featuredCategories {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #323944;
+}
+
+.categoryItem svg {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.categoryLabels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inbox svg {
+    fill: #52abf1;
+}
+
+.today svg {
+    fill: #f8d548;
+}
+
+.upcoming svg {
+    fill: #ea4770;
+}
+
+.anytime svg {
+    fill: #67aca4;
+}
+
+.someday svg {
+    fill: #cfc692;
+}
+
+.logbook svg {
+    fill: #6dbd6b;
+}
+

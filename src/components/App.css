@@ -1,0 +1,25 @@
+
+body {
+    background-color: #1e2128;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.appContainer {
+    padding: 50px 12px;
+}
+
+.content {
+    padding: 0 6px;
+}
+
+
+/* Fonts */
+h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+

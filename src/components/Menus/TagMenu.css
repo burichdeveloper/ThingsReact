@@ -1,0 +1,91 @@
+.TagMenu {
+    position: absolute;
+}
+
+.TagMenu h2, p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.TagMenu h2 {
+    text-align: center;
+}
+
+.TagMenu .doneBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px
+}
+
+.TagMenu .screen-cover {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.TagMenu .menu-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:18%;
+    left:10%;
+    z-index: 2;
+    background-color: #2d3137;
+    height: 64%;
+    width: calc(80% - 20px);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.TagMenu .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TagMenu button {
+    background-color: #58606b;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 49%;
+}
+
+.TagMenu form {
+    display: flex;
+    flex-direction: column;
+}
+
+.TagMenu input {
+    background-color: #464a53;
+    border: none;
+    border-radius: 5px;
+    line-height: 24px;
+    padding: 0 10px;
+    color: white
+}
+
+.TagMenu .tagsList {
+    margin: 0;
+    padding: 20px 10px;
+    height: 100%;
+    list-style: none;
+    overflow: scroll;
+}
+
+.TagMenu svg {
+    margin: 0 10px 0 0;
+    height: 20px;
+}
+
+.TagMenu .tagsList li {
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
